@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/mybackground"
+    tools:context=".LoginActivity2">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottielogin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/maparut"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tvLoginLogoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lugrasimo"
+        android:text="Welcome.!!"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="35sp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp"
+        android:layout_margin="15pt"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/belgrano"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/etLoginUsername"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:fontFamily="@font/chakra_petch_semibold"
+                android:hint="Username/Mobile No."
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:background="@drawable/edittex_border"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="15dp" />
+
+            <EditText
+                android:id="@+id/etLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="15sp"
+                android:drawableLeft="@drawable/baseline_key_24"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/chakra_petch_semibold"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:background="@drawable/edittex_border"
+                android:textColorHint="@color/black"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/cbShowHidePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17sp"
+                android:buttonTint="#867D58"
+                android:fontFamily="@font/coustard"
+                android:text="Show Password"
+                android:textColor="#877E59"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password ?"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:layout_marginStart="190dp"
+                android:fontFamily="@font/coustard"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnLoginLogin"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#877E59"
+                android:fontFamily="@font/averia_serif_libre_light"
+                android:text="Log in"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvLoginOR"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp"
+                android:fontFamily="sans-serif-light"
+                android:text="OR"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/btnLoginNew"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:fontFamily="@font/alexandria_medium"
+                android:text="Register"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:backgroundTint="#B0D6F5"
+                android:layout_marginBottom="20sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

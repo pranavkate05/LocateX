@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adlam_display</item>
+        <item>@font/alata</item>
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/alegreya_sc_medium</item>
+        <item>@font/alexandria</item>
+        <item>@font/alexandria_medium</item>
+        <item>@font/amarante</item>
+        <item>@font/anek_kannada</item>
+        <item>@font/arbutus</item>
+        <item>@font/artifika</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/averia_serif_libre_light</item>
+        <item>@font/balsamiq_sans_bold_italic</item>
+        <item>@font/balsamiq_sans_italic</item>
+        <item>@font/belgrano</item>
+        <item>@font/bruno_ace_sc</item>
+        <item>@font/cantata_one</item>
+        <item>@font/capriola</item>
+        <item>@font/carter_one</item>
+        <item>@font/chakra_petch_semibold</item>
+        <item>@font/chonburi</item>
+        <item>@font/coustard</item>
+        <item>@font/cutive</item>
+        <item>@font/el_messiri</item>
+        <item>@font/im_fell_great_primer_sc</item>
+        <item>@font/lugrasimo</item>
+        <item>@font/marko_one</item>
+        <item>@font/vollkorn_sc_black</item>
+        <item>@font/yatra_one</item>
+        <item>@font/ysabeau_sc_black</item>
+        <item>@font/ysabeau_sc_thin</item>
+    </array>
+</resources>
