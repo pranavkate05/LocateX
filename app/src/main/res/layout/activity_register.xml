@@ -37,9 +37,6 @@
         app:cardElevation="0dp"
         android:layout_margin="15pt"
         android:layout_gravity="center"
-
-
-
         >
 
 
@@ -48,7 +45,6 @@
             android:layout_height="match_parent"
             android:background="#80FFFFFF"
             android:orientation="vertical"
-
             >
 
 
@@ -63,7 +59,6 @@
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:layout_marginTop="30dp"
-
                 />
 
             <EditText
@@ -80,8 +75,6 @@
                 android:background="@drawable/edittex_border"
                 android:textSize="20sp"
                 android:layout_margin="15dp"
-
-
                 />
 
             <EditText
@@ -98,8 +91,6 @@
                 android:background="@drawable/edittex_border"
                 android:textSize="20sp"
                 android:layout_margin="15dp"
-
-
                 />
 
             <EditText
@@ -116,8 +107,6 @@
                 android:background="@drawable/edittex_border"
                 android:textSize="20sp"
                 android:layout_margin="15dp"
-
-
                 />
 
             <EditText
@@ -134,8 +123,6 @@
                 android:background="@drawable/edittex_border"
             android:textSize="20sp"
             android:layout_margin="15dp"
-
-
             />
 
             <EditText
@@ -152,8 +139,6 @@
                 android:background="@drawable/edittex_border"
                 android:textSize="20sp"
                 android:layout_margin="15dp"
-
-
                 />
 
 
@@ -171,8 +156,6 @@
                 android:background="@drawable/edittex_border"
                 android:textColorHint="@color/black"
                 android:textSize="20dp"
-
-
                 />
 
             <CheckBox
@@ -186,8 +169,6 @@
                 android:textColor="#867D58"
                 android:textSize="12dp"
                 android:textStyle="bold"
-
-
                 />
 
 
@@ -207,9 +188,6 @@
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="italic"
-
-
-
                 />
 
 

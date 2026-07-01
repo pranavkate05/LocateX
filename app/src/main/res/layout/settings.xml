@@ -16,11 +16,5 @@
         android:layout_marginTop="40dp"
         android:background="#ADFBFB"/>
 
-    <com.google.android.material.appbar.MaterialToolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:title="Setting Page"
-        android:background="#ADFBFB"
-        android:layout_marginTop="40dp"/>
 
 </LinearLayout>

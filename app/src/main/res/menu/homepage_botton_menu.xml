@@ -16,6 +16,12 @@
         android:icon="@drawable/map_menu"/>
 
     <item
+        android:id="@+id/bottomMusic"
+        android:title="Music"
+        app:showAsAction="always"
+        android:icon="@drawable/music_icon"/>
+
+    <item
         android:id="@+id/bottomMenuHomeMe"
         android:title="Me"
         app:showAsAction="always"

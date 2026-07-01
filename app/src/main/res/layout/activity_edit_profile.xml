@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/editImgProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile"
+            android:scaleType="centerCrop"/>
+        <Button
+            android:id="@+id/btnChooseImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Photo"
+            android:textColor="#FFF"
+            android:fontFamily="@font/chakra_petch_semibold"
+            android:backgroundTint="#1DB1F2"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="@font/chakra_petch_semibold"
+            android:hint="Name"
+            android:drawableLeft="@drawable/baseline_person_add_24"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edittex_border"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="@font/chakra_petch_semibold"
+            android:hint="Mobile No."
+            android:drawableLeft="@drawable/baseline_local_phone_24"
+            android:drawablePadding="10dp"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edittex_border"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            />
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="@font/chakra_petch_semibold"
+            android:hint="Email Id"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edittex_border"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            />
+        <EditText
+            android:id="@+id/editAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="@font/chakra_petch_semibold"
+            android:hint=" Address"
+            android:drawableLeft="@drawable/location_icon2"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/edittex_border"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            />
+        <Button
+            android:id="@+id/btnSaveProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Profile"
+            android:textColor="#FFF"
+            android:layout_margin="15dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/chakra_petch_semibold"
+            android:backgroundTint="#1DB1F2"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
